@@ -13,4 +13,8 @@ if my_age < 35
   age_message = "Early thirties still"
 end 
 
-puts age_message
+def greet 
+  puts "Hello " + my_name 
+end 
+
+greet

@@ -16,3 +16,11 @@ if (myAge < 35) {
 }
 
 console.log(ageMessage);
+
+// can reach parents scope but bad
+function greet() {
+  console.log('Hello ' + myName);
+}
+
+greet();
+console.log(myName);
